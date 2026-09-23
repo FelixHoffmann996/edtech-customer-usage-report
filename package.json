@@ -1,0 +1,20 @@
+{
+  "name": "edtech-customer-usage-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/educator_report.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/report_decision.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2",
+    "@types/node": "^22.15.30"
+  },
+  "engines": { "node": ">=22" }
+}
